@@ -5,7 +5,8 @@
 
 #include <inttypes.h>
 
-struct Properties {
+struct Properties
+{
   uint64_t line_number;
   // 0 to 255 indicating the pre-defined operation code (operations.hpp)
   char operation;

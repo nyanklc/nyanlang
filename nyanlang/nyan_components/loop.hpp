@@ -4,9 +4,11 @@
 #include "component.hpp"
 #include <cstdint>
 
-namespace nyanlang {
+namespace nyanlang
+{
 
-  class Loop : Component {
+  class Loop : Component
+  {
   public:
     Loop(uint64_t line_num);
 

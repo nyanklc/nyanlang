@@ -7,14 +7,17 @@
 #include <string>
 #include <vector>
 
-namespace nyantools {
-  class NyanParser {
+namespace nyantools
+{
+  class NyanParser
+  {
   public:
     NyanParser(std::string main_file_path);
 
     void loadFile(std::string filepath);
 
     std::vector<nyanlang::Component> parseFile();
+
   private:
     std::vector<std::FILE> file;
   };

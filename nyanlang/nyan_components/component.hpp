@@ -3,9 +3,11 @@
 
 #include "component_properties.hpp"
 
-namespace nyanlang {
+namespace nyanlang
+{
 
-  class Component {
+  class Component
+  {
   public:
     Component();
 
