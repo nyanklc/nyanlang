@@ -1,6 +1,6 @@
 #include "file_tree.hpp"
 
-namespace nyantools
+namespace nytools
 {
   FileNode::FileNode(std::string n, std::string p)
   {
@@ -46,4 +46,4 @@ namespace nyantools
     }
     return false;
   }
-} // namespace nyantools
+} // namespace nytools

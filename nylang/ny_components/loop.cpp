@@ -1,6 +1,6 @@
 #include "loop.hpp"
 
-namespace nyanlang
+namespace nylang
 {
 
   Loop::Loop(uint64_t line_num)

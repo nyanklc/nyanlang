@@ -1,12 +1,11 @@
-#ifndef NYAN_TOOLS_FILETREE_H
-#define NYAN_TOOLS_FILETREE_H
+#ifndef NY_TOOLS_FILETREE_H
+#define NY_TOOLS_FILETREE_H
 
-#include <fstream>
 #include <memory>
 #include <string>
 #include <vector>
 
-namespace nyantools
+namespace nytools
 {
 
   class FileNode
@@ -45,6 +44,6 @@ namespace nyantools
     std::vector<std::shared_ptr<FileNode>> file_list;
   };
 
-} // namespace nyantools
+} // namespace nytools
 
 #endif

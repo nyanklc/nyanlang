@@ -1,9 +1,9 @@
-#ifndef NYAN_COMPONENT_H
-#define NYAN_COMPONENT_H
+#ifndef NY_LANG_COMPONENT_H
+#define NY_LANG_COMPONENT_H
 
 #include "component_properties.hpp"
 
-namespace nyanlang
+namespace nylang
 {
 
   class Component

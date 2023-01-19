@@ -1,10 +1,10 @@
-#ifndef NYAN_COMPONENT_LOOPS_H
-#define NYAN_COMPONENT_LOOPS_H
+#ifndef NY_LANG_COMPONENT_LOOPS_H
+#define NY_LANG_COMPONENT_LOOPS_H
 
 #include "component.hpp"
 #include <cstdint>
 
-namespace nyanlang
+namespace nylang
 {
 
   class Loop : Component
